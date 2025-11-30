@@ -2,7 +2,8 @@ import os
 import subprocess
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from config import bot_config
+from .config import bot_config
+
 
 app = Client("wm", bot_token=bot_config.BOT_TOKEN)
 
